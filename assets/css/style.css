@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #f0f0f0;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Lato, sans-serif;
+    letter-spacing: 5px;
+    color: #252525;
+}
+
+#logo {
+    float: right;
+    font-size: 250%;
+    margin-right: 30px;
+}
+
+/* menu */
+
+#menu {
+     letter-spacing: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the menu items */
+#menu li {
+  display: inline-block; 
+  margin: 20px; 
+}
+
+/* Style for the menu links */
+#menu li a {
+  text-decoration: none;
+  color: #333; 
+  padding: 8px 12px; 
+  background-color: #f0f0f0; 
+  border-radius: 4px; 
+  transition: background-color 0.2s; 
+}
+
+/* Style for the active menu link */
+#menu li a.active,
+#menu li a:hover {
+  background-color: #ddd; 
+}
+
