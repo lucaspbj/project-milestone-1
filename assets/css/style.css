@@ -14,6 +14,7 @@ body {
 }
 
 /* headings and logo */
+
 h1,
 h2 {
     font-family: Lato, sans-serif;
@@ -28,50 +29,93 @@ h2 {
 }
 
 /* menu */
+
 #menu {
-     letter-spacing: 3px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    letter-spacing: 3px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* Style for the menu items */
+/* style for the menu items */
+
 #menu li {
-  display: inline-block; 
-  margin: 20px 10px; 
+    display: inline-block;
+    margin: 20px 10px;
 }
 
-/* Style for the menu links */
+/* style for the menu links */
+
 #menu li a {
-  text-decoration: none;
-  color: #333; 
-  padding: 4px 8px; 
-  background-color: #f0f0f0; 
-  border-radius: 4px; 
-  transition: background-color 0.2s; 
+    text-decoration: none;
+    color: #333;
+    padding: 4px 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    transition: background-color 0.2s;
 }
 
-/* Style for the active menu link */
+/* style for the active menu link */
+
 #menu li a.active,
 #menu li a:hover {
-  background-color: #ddd; 
+    background-color: #ddd;
 }
 
 /* hero image */
-/* Styling for the hero-outer container */
-#hero-outer {
-  background-color: #f0f0f0;
+/* styling for the hero-outer container */
 
-  width: 100%;
-  position: relative;
+#hero-outer {
+    background-color: #f0f0f0;
+
+    width: 100%;
+    position: relative;
 }
 
-/* Styling for the hero-image container */
+/* styling for the hero-image container */
+
 #hero-image {
     height: 600px;
     width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  background: url('../images/hero-image.jpg') no-repeat center center;
+    margin: 0 auto;
+    text-align: center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
 }
 
+/* styling for main section of home page */
+
+.introduction {
+    height: 300px;
+    width: 100%;
+}
+
+.content {
+    background-color: #f0f0f0;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+p {
+    margin-right: 20px;
+    text-align: justify;
+
+}
+
+/* styling for the first main image */
+
+.container {
+    width: 400px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
