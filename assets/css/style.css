@@ -86,7 +86,8 @@ h2 {
 
 .introduction {
     height: 300px;
-    width: 100%;
+    width: 50vw;
+
 }
 
 .content {
@@ -95,7 +96,7 @@ h2 {
     align-content: center;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    padding: 20px;
+    padding-top: 30px;
 }
 
 h1 {
@@ -104,18 +105,48 @@ h1 {
 }
 
 p {
-    margin-right: 20px;
+    height: 100%;
+    margin: 20px 20px;
     text-align: justify;
-
+    font-size: 1.8vw;
 }
 
 /* styling for the first main image */
 
 .container {
-    width: 400px;
+    width: 100%;
+
 }
 
 .container img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
+
+}
+
+
+
+
+
+/* footer */
+
+footer {
+    height: 150px;
+
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
