@@ -11,6 +11,13 @@ body {
     font-weight: 300;
     background-color: #f0f0f0;
     color: #3a3a3a;
+    display: grid;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+header{
+   padding-bottom: 20px;
 }
 
 /* headings and logo */
@@ -24,17 +31,22 @@ h2 {
 
 #logo {
     float: right;
-    font-size: 250%;
+    font-size: 300%;
     margin-right: 30px;
 }
 
 /* menu */
 
 #menu {
+    font-size: 1vw;
     letter-spacing: 3px;
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
 }
 
 /* style for the menu items */
@@ -42,6 +54,7 @@ h2 {
 #menu li {
     display: inline-block;
     margin: 20px 10px;
+    
 }
 
 /* style for the menu links */
@@ -63,52 +76,70 @@ h2 {
 }
 
 /* hero image */
+
 /* styling for the hero-outer container */
 
 #hero-outer {
-    background-color: #f0f0f0;
-
-    width: 100%;
     position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
 }
 
 /* styling for the hero-image container */
 
 #hero-image {
-    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    margin: 0 auto;
-    text-align: center;
+    height: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
+
+
+
 
 /* styling for main section of home page */
-
-.introduction {
-    height: 300px;
-    width: 50vw;
-
-}
 
 .content {
     background-color: #f0f0f0;
     display: grid;
-    align-content: center;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
     padding-top: 30px;
 }
 
+.introduction {
+    background: #fff;
+    padding: 40px;
+    position: relative;
+    display: grid;
+    align-content: center;
+    gap: 30px;
+}
+
 h1 {
-    margin-bottom: 20px;
-    text-align: left;
+    font-size: 2vw;
+    text-align: right;
 }
 
 p {
     height: 100%;
     margin: 20px 20px;
-    text-align: justify;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+
+.right-align{
+    text-align: right;
+}
+
+.left-align{
+    text-align: left;
 }
 
 /* styling for the first main image */
@@ -128,16 +159,17 @@ p {
 
 
 
+
+
+
 /* footer */
 
 footer {
     height: 150px;
-
 }
 
 .social-networks {
     text-align: center;
-
 }
 
 .social-networks>li {
@@ -149,4 +181,36 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+
+
+
+
+
+/* media queries */
+
+/* Syling for big screens */
+
+@media (min-width: 1024px) {
+    #hero-image {
+        background-size: cover;
+        /* Outros estilos para imagem */
+    }
+}
+
+/* Syling for normal screens */
+@media (max-width: 1023px) and (min-width: 768px) {
+    #hero-image {
+        background-size: contain;
+        /* Outros estilos para imagem */
+    }
+}
+
+/* Syling for small screens */
+@media (max-width: 767px) {
+    #hero-image {
+        background-size: 100%;
+        /* Outros estilos para imagem */
+    }
 }
