@@ -11,13 +11,12 @@ body {
     font-weight: 300;
     background-color: #f0f0f0;
     color: #3a3a3a;
-    display: grid;
     gap: 10px;
     margin-top: 40px;
 }
 
-header{
-   padding-bottom: 20px;
+header {
+    padding-bottom: 20px;
 }
 
 /* headings and logo */
@@ -54,7 +53,6 @@ h2 {
 #menu li {
     display: inline-block;
     margin: 20px 10px;
-    
 }
 
 /* style for the menu links */
@@ -132,11 +130,11 @@ p {
     line-height: 1.5;
 }
 
-.right-align{
+.right-align {
     text-align: right;
 }
 
-.left-align{
+.left-align {
     text-align: left;
 }
 
@@ -147,7 +145,6 @@ p {
     justify-content: center;
     align-items: center;
     width: 100%;
-    
 }
 
 .container img {
@@ -155,7 +152,6 @@ p {
     height: 90%;
     border-radius: 4px;
 }
-
 
 /* styling to h1 for history page */
 
@@ -181,7 +177,6 @@ p {
     display: inline-block;
     overflow: hidden;
     position: relative;
-
 }
 
 #photos-container>img {
@@ -189,24 +184,80 @@ p {
 }
 
 .zoom-effect {
-    transition: transform 0.3s ease; 
-  }
-  
-  .zoom-effect:hover {
-    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1);
+}
+
+/* form */
+
+.form-section {
+    clear: left;
+    background: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #252525;
+    background-color: rgba(221, 221, 221, .7);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #252525;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #252525;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #252525;
+    border-radius: 4px;
+}
+
+.text-input:hover {
+    background-color: #fafafa;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #A9C0C1;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #A9C0C1;
+}
+
 
 
 /* footer */
 
 footer {
-    height: 150px;
+    height: 300px;
 }
 
 .social-networks {
     text-align: center;
 }
 
-.social-networks>li {
+.social-networks > li {
     display: inline;
 }
 
