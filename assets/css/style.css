@@ -100,9 +100,6 @@ h2 {
     background-repeat: no-repeat;
 }
 
-
-
-
 /* styling for main section of home page */
 
 .content {
@@ -124,6 +121,7 @@ h2 {
 h1 {
     font-size: 2vw;
     text-align: right;
+    margin-right: 20px;
 }
 
 p {
@@ -145,33 +143,57 @@ p {
 /* styling for the first main image */
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-
+    
 }
 
 .container img {
-    width: 100%;
-    height: auto;
-
+    width: 90%;
+    height: 90%;
+    border-radius: 4px;
 }
 
 
+/* styling to h1 for history page */
+
+.h1-right {
+    font-size: 2vw;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.h1-left {
+    font-size: 2vw;
+    text-align: left;
+    margin-left: 20px;
+}
 
 /* gallery */
 
-#photos {
+#photos-container {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
 
 }
 
-#photos>img {
+#photos-container>img {
     width: 100%;
 }
 
-
+.zoom-effect {
+    transition: transform 0.3s ease; 
+  }
+  
+  .zoom-effect:hover {
+    transform: scale(1.1); 
 
 
 /* footer */
