@@ -169,7 +169,6 @@ p {
 
 [class^="container-"] img {
     width: 100%;
-    height: 40vw;
     border-radius: 4px;
 }
 
@@ -214,13 +213,6 @@ p {
 /* form */
 
 .form-section {
-    clear: left;
-    background: url("../images/hero-image.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.signup-form {
     margin: 100px 10% 0 0;
     color: var(--text-color, #3a3a3a);
     background-color: var(--signup-form-color, rgba(221, 221, 221, .7));
@@ -230,7 +222,7 @@ p {
     padding: 30px;
 }
 
-.signup-form h2 {
+.form-section h2 {
     color: var(--text-color, #3a3a3a);
     margin-bottom: 20px;
 }
@@ -388,51 +380,61 @@ footer {
 }
 
 [class^="container-"] img {
-    height: 60vw;
     width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    .gallery {
+        column-count: 1;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .hero-outer {
-
         width: 100%;
-        height: 60vw;
+        height: 120vw;
     }
 
     .content {
         padding: 0;
     }
 
-h1{
-    font-size: 1.1rem;
-}
+    h1 {
+        font-size: 1.1rem;
+    }
 
-.h1-right{
-    font-size: 1.1rem;
-}
+    .h1-right {
+        font-size: 1.1rem;
+    }
 
-.h1-left{
-    font-size: 1.1rem;
-}
+    .h1-left {
+        font-size: 1.1rem;
+    }
 
-.right-align{
-    font-size: 1rem;
-}
+    .right-align {
+        font-size: 1rem;
+    }
 
-.left-align{
-    font-size: 1rem;
-}
+    .left-align {
+        font-size: 1rem;
+    }
 
-.gallery {
-    column-count: 1;
-}
+    [class^="introduction"] {
+        padding: 20px;
+        gap: 20px;
+    }
 
-[class^="introduction"]{
-    padding: 20px;
-    gap: 20px;
-}
+    p {
+        margin: 0;
+    }
 
-p{
-    margin: 0;
-}
+    .menu {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .menu li {
+        margin: 8px;
+    }
 }
