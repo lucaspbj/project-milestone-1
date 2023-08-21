@@ -210,18 +210,21 @@ p {
 /* Form styles */
 
 .form-section {
-    margin: 100px 10% 0 0;
+    margin: 20px auto;
     color: var(--text-color);
     background-color: var(--signup-form-color);
     max-width: 400px;
-    position: absolute;
-    left: 10%;
     padding: 30px;
 }
 
 .form-section h2 {
     color: var(--text-color);
     margin-bottom: 20px;
+}
+
+.form-footer-container {
+    margin-top: 40px;
+    padding-bottom: 100px;
 }
 
 .text-input {
@@ -419,5 +422,19 @@ footer {
 
     .menu li {
         margin: 8px;
+    }
+
+    .form-section {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .text-input {
+        font-size: 14px;
+    }
+
+    .join-button {
+        padding: 10px 20px;
+        font-size: 14px;
     }
 }
