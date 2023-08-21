@@ -415,13 +415,18 @@ footer {
     }
 
     .menu {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
+        text-align: center; 
+        margin-top: 20px; 
     }
 
     .menu li {
-        margin: 8px;
+        display: block; 
+        margin: 10px 0; 
+    }
+
+    .menu li a {
+        padding: 10px; 
+        display: block; 
     }
 
     .form-section {
