@@ -56,12 +56,13 @@
                     <input type="text" class="text-input" id="lname" name="last_name" required>
                     <label for="email">Email Address</label>
                     <input type="email" class="text-input" id="email" name="email_address" required>
+                    <label>Event Preferences</label>
+                    <input type="checkbox" id="news" name="event_preference[]" value="news">
                     <label for="news">News</label>
-                    <input type="radio" id="news" name="event_preference" value="news" required>
+                    <input type="checkbox" id="night_life" name="event_preference[]" value="night_life">
                     <label for="night_life">Night Life</label>
-                    <input type="radio" id="night_life" name="event_preference" value="night_life">
+                    <input type="checkbox" id="event" name="event_preference[]" value="event">
                     <label for="event">Event</label>
-                    <input type="radio" id="event" name="event_preference" value="event">
                     <input type="submit" value="Sign Up Now!" class="join-button">
                 </form>
             </div>
