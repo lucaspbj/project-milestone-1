@@ -6,44 +6,44 @@ Welcome to "The Ireland's Granny," your portal to explore Waterford, Ireland's o
 
 Step into the past with us as we uncover Waterford's rich history. Founded by Vikings, this city carries the legacy of trade and heritage. From medieval roots to a vibrant present, experience the essence of Waterford's journey through time.
 
-![A picture of the website in many different screen sizes](the_Irelands_granny_mockup.jpeg)
+![A picture of the website in many different screen sizes](documentation/the_Irelands_granny_mockup.jpeg)
 
 ## Existing Features
 
 ### Navigation Bar:
 The website features a top navigation bar that allows visitors to easily access different sections of the site. The navigation bar includes links to the home page, the history page, the image gallery, and the contact us page.
 
-![A picture of the navigation bar](the_Irelands_granny_nav.jpeg)
+![A picture of the navigation bar](documentation/the_Irelands_granny_nav.jpeg)
 
 ### Hero Image:
 On the home page, a stunning hero image is displayed in fullscreen or prominently, capturing the essence and atmosphere of the city of Waterford. The hero image serves as a striking visual introduction to the site and creates an immediate impact.
 
-![A picture of the hero image of the website](the_Irelands_granny_landing.jpeg)
+![A picture of the hero image of the website](documentation/the_Irelands_granny_landing.jpeg)
 
 ### Main Page with Waterford Details:
 The main page provides an overview of the key highlights and details of Waterford city. 
 
-![A picture of the main page with some details](the_Irelands_granny_main.jpeg)
+![A picture of the main page with some details](documentation/the_Irelands_granny_main.jpeg)
 
 ### Footer:
 The site's footer contains links to the site's social media profiles, such as Facebook, Twitter, YouTube, and Instagram. This enables visitors to follow and engage with the site on social media platforms.
 
-![A picture of footer of the website](the_Irelands_granny_footer.jpeg)
+![A picture of footer of the website](documentation/the_Irelands_granny_footer.jpeg)
 
 ### City History Page:
 The page dedicated to the city's history offers a detailed narrative of Waterford's rich history. It spans from its Viking origins to its evolution over the centuries, highlighting significant moments and cultural and economic transformations.
 
-![A picture of the history page](the_Irelands_granny_history.jpeg)
+![A picture of the history page](documentation/the_Irelands_granny_history.jpeg)
 
 ### Image Gallery:
 The image gallery showcases a collection of photos and images related to the city of Waterford. This allows visitors to visually explore the city's landmarks, landscapes, and attractions.
 
-![A picture of the gallery page](the_Irelands_granny_gallery.jpeg)
+![A picture of the gallery page](documentation/the_Irelands_granny_gallery.jpeg)
 
 ### Signup Page:
 The signup page likely provides a way for visitors to subscribe to receive updates, news, or offers related to the site. This page may include a signup form with fields for name, email, and other relevant information.
 
-![A picture of the signup page](the_Irelands_granny_signup.jpeg)
+![A picture of the signup page](documentation/the_Irelands_granny_signup.jpeg)
 
 ## Browser Compatibility
 
@@ -68,15 +68,13 @@ During the CSS validation process, a single error was identified. This error per
 
 - **Accessibility:** I've taken accessibility seriously during the development of my website to ensure that it is usable by a wide range of users, including those with disabilities. Here are the steps I've taken:
 
-![A picture of the accessibility level of the website](the_Irelands_granny_accessibility.jpeg)
+![A picture of the accessibility level of the website](documentation/the_Irelands_granny_accessibility.jpeg)
 
-## Known Issues
+## Bug Fix
 
-Please note that my website currently has a known issue where it does not display correctly on Safari browsers with screen sizes under 950px. This issue is currently being investigated, and I'm actively working to find a solution.
+I'm pleased to announce that a previously identified bug affecting Safari browsers with a width under 950px has been successfully resolved. 
 
-I apologize for any inconvenience this may cause. If you encounter this issue while testing the site, I recommend using alternative browsers such as Chrome, Firefox, Opera, or Microsoft Edge to access the site until the Safari compatibility is resolved.
-
-Thank you for your understanding and patience as I work towards resolving this issue.
+An issue was identified where the text on the website was overlapping and overwriting the images. This bug caused the text content to appear on top of the images, making it difficult to read and impacting the overall visual presentation. The problem was particularly noticeable on Safari browsers with a screen width below 950 pixels. The text is now properly displayed, ensuring a clear and engaging browsing experience.
 
 
 ## Deployment
@@ -89,7 +87,7 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
    
 3. **Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.**
 
-The live link can be found here - [Go to live website](https://lucaspbj.github.io/project-milestone-1/)
+The live link can be found here - [Go to live website](documentation/https://lucaspbj.github.io/project-milestone-1/)
 
 
 ## Credits
@@ -117,5 +115,14 @@ I would like to give credit and express my gratitude to the following sources fo
 - [Waterford Castle Resort](https://www.waterfordcastleresort.com/)
 
 Thank you to these sources for contributing to the visual content of this website.
+
+## Acknowledgements
+
+I would like to express my gratitude to the following individual who have contributed to the development of this project:
+
+My mentor, Jack Wachira, for his invaluable guidance, feedback, and support throughout the project. His expertise and insights played a significant role in shaping the project's direction.
+
+Thank you for your contributions and encouragement.
+
 
 
