@@ -64,21 +64,58 @@ I've taken steps to ensure the quality and standards compliance of my website's 
 
 - **CSS Validation:** I've also validated my CSS code using the W3C CSS Validator. The stylesheet is compliant with CSS3 standards and doesn't have any errors or issues.
 
-During the CSS validation process, a single error was identified. This error pertains to the inclusion of Font Awesome icons within the CSS file. The Font Awesome declarations were flagged as potentially invalid according to CSS3 specifications. However, it's important to note that this error can be safely disregarded, as Font Awesome icons are widely used and have been thoroughly tested for compatibility.
+During the CSS validation process, a single error was identified. This error pertains to the inclusion of Font Awesome icons within the CSS file. However, it's important to note that this error can be safely disregarded, as Font Awesome icons are widely used and have been thoroughly tested for compatibility.
 
 - **Accessibility:** I've taken accessibility seriously during the development of my website to ensure that it is usable by a wide range of users, including those with disabilities. Here are the steps I've taken:
 
 ![A picture of the accessibility level of the website](the_Irelands_granny_accessibility.jpeg)
 
+## Known Issues
+
+Please note that my website currently has a known issue where it does not display correctly on Safari browsers with screen sizes under 950px. This issue is currently being investigated, and I'm actively working to find a solution.
+
+I apologize for any inconvenience this may cause. If you encounter this issue while testing the site, I recommend using alternative browsers such as Chrome, Firefox, Opera, or Microsoft Edge to access the site until the Safari compatibility is resolved.
+
+Thank you for your understanding and patience as I work towards resolving this issue.
+
+
 ## Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- *In the GitHub repository, navigate to the Settings tab* 
-
-- *From the source section drop-down menu, select the Master Branch*
-
-- *Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.*
+1. **In the GitHub repository, navigate to the Settings tab.**
+   
+2. **From the source section drop-down menu, select the Master Branch.**
+   
+3. **Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.**
 
 The live link can be found here - [Go to live website](https://lucaspbj.github.io/project-milestone-1/)
+
+
+## Credits
+
+I would like to give credit and express my gratitude to the following sources for providing the content and pictures used on this website:
+
+- [TripSavvy](https://www.tripsavvy.com/top-things-to-do-in-the-city-of-waterford-4589744)
+- [Railway Square](https://www.railway-square.com/waterford-city-center)
+- [Greenway Manor](https://www.greenwaymanor.ie/things-to-do/visit-waterford)
+- [Wikipedia](https://www.wikipedia.org/)
+- [Ireland.com](https://www.ireland.com/en-us/destinations/county/waterford/waterford-city/)
+- [Climates to Travel](https://www.climatestotravel.com/)
+- [Expedia](https://www.expedia.ie/)
+- [Klook](www.klook.com)
+- [Ireland South East](https://irelandsoutheast.com/)
+- [Ireland Before You Die](https://www.irelandbeforeyoudie.com/)
+- [The Crazy Tourist](https://www.thecrazytourist.com/)
+- [Travel Ireland](https://www.travelireland.org/)
+- [Waterford Treasures](https://www.waterfordtreasures.com/)
+- [RTÉ](https://www.rte.ie/)
+- [The Irish Times](https://www.irishtimes.com/)
+- [Waterford Council News](https://waterfordcouncilnews.com/)
+- [Buzz.ie](https://www.buzz.ie/)
+- [The Telegraph](https://www.telegraph.co.uk/)
+- [Waterford Castle Resort](https://www.waterfordcastleresort.com/)
+
+Thank you to these sources for contributing to the visual content of this website.
+
 
