@@ -87,7 +87,7 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
    
 3. **Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.**
 
-The live link can be found here - [Go to live website](documentation/https://lucaspbj.github.io/project-milestone-1/)
+The live link can be found here - [Go to live website](https://lucaspbj.github.io/project-milestone-1/)
 
 
 ## Credits
